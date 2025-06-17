@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script will print best school
+
+value="Best School"
+val=1
+
+while [ $val -le 10 ]
+do
+	echo "$value"
+	((val++))
+done
