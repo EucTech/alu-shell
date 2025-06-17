@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This is a Write a Bash script that displays
+
+value=$(ls)
+
+for n in $value
+do
+	echo "$n" | cut -d "-" -f 2
+done
